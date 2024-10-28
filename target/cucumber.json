@@ -1,0 +1,135 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-10-28T18:31:18.436Z",
+        "line": 3,
+        "name": "As a user I want to login to Parabank website using valid credentials",
+        "description": "",
+        "id": "parabank-login-testing;as-a-user-i-want-to-login-to-parabank-website-using-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The browser is open",
+            "match": {
+              "location": "com.StepDef.StepDefinition.the_browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Pass the Parabank URL \"https://parabank.parasoft.com/parabank/index.htm\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://parabank.parasoft.com/parabank/index.htm\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.StepDef.StepDefinition.pass_the_parabank_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username in username Field \"FarhanS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FarhanS\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.StepDef.StepDefinition.enter_username_in_username_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password in password field \"Farhan96\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Farhan96\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.StepDef.StepDefinition.enter_password_in_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on login button",
+            "match": {
+              "location": "com.StepDef.StepDefinition.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate Login is successful",
+            "match": {
+              "location": "com.StepDef.StepDefinition.validate_login_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Quit the browser",
+            "match": {
+              "location": "com.StepDef.StepDefinition.quit_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Parabank Login Testing",
+    "description": "",
+    "id": "parabank-login-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/ParabankLogin.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
